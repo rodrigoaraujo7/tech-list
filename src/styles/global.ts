@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components'
-import RobotoBold from '../fonts/Roboto-Bold.ttf'
 
 export default createGlobalStyle`
     * {
