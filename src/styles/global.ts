@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import RobotoBold from '../fonts/Roboto-Bold.ttf'
 
 export default createGlobalStyle`
     * {
@@ -18,7 +19,7 @@ export default createGlobalStyle`
         align-items: center;
         min-height: 100vh;
 
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-size: 1.25rem;
         font-weight: bold;
     }
