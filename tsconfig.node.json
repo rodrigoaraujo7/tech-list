@@ -4,5 +4,8 @@
     "module": "esnext",
     "moduleResolution": "node"
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts"],
+  "files": [
+    "src/styles/styled.d.ts"
+  ]
 }
