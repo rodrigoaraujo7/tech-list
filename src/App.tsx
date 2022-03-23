@@ -1,4 +1,5 @@
 import GlobalStyle from './styles/global'
+import Header from './components/Header/Index'
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <GlobalStyle />
 
       <div className="container">
+        <Header />
         <h1>123</h1>
       </div>
     </>
