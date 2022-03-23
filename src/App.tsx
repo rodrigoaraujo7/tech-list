@@ -6,7 +6,7 @@ function App() {
       <GlobalStyle />
 
       <div className="container">
-        <h1>Hello World</h1>
+        <h1>123</h1>
       </div>
     </>
   )

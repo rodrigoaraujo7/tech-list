@@ -22,4 +22,13 @@ export default createGlobalStyle`
         font-size: 1.25rem;
         font-weight: bold;
     }
+
+    .container {
+        background-color: red;
+
+        width: 68.5rem;
+        min-height: 30rem;
+
+        margin: 4.75rem 0;
+    }
 `;
