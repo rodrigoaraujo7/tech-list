@@ -1,20 +1,27 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from 'styled-components'
 import Switch from 'react-switch';
 import { Container } from "./styles";
 
-const Header = () => {
+interface Props {
+    toggleTheme(): void;
+}
+
+const Header: React.FC<Props> = ({ toggleTheme }) => {
+    const {colors, title} = useContext(ThemeContext)
+
     return(
         <Container>
             <Switch 
-                onChange={() => {}}
-                checked={false}
+                onChange={toggleTheme}
+                checked={title === 'dark'}
                 checkedIcon={false}
                 uncheckedIcon={false}
                 height={18}
                 width={50}
                 handleDiameter={28}
-                offColor=""
-                onColor=""
+                offColor={colors.secondary}
+                onColor={colors.secondary}
             />
             <br />
             Search box
