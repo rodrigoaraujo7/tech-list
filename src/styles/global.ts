@@ -5,6 +5,8 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+
+        transition: 0.25s;
     }
 
     body {
@@ -24,8 +26,6 @@ export default createGlobalStyle`
     }
 
     .container {
-        background-color: red;
-
         width: 68.5rem;
         min-height: 30rem;
 

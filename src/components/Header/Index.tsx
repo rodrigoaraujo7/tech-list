@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from 'styled-components'
 import Switch from 'react-switch';
-import { Container } from "./styles";
+import { Container, Searchbar } from "./styles";
 
 interface Props {
     toggleTheme(): void;
@@ -17,14 +17,14 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
                 checked={title === 'dark'}
                 checkedIcon={false}
                 uncheckedIcon={false}
-                height={18}
-                width={50}
-                handleDiameter={28}
+                height={20}
+                width={65}
+                handleDiameter={12}
                 offColor={colors.secondary}
                 onColor={colors.secondary}
             />
             <br />
-            Search box
+            <Searchbar type="text" placeholder="Name" />
         </Container>
     )
 };
