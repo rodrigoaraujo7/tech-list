@@ -7,7 +7,6 @@ export const Container = styled.div`
 
 export const Searchbar = styled.input`
     background-color: ${props => props.theme.colors.secondary};
-    outline: none;
 
     height: 2.75rem;
     width: 100%;
