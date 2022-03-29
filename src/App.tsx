@@ -8,6 +8,7 @@ import GlobalStyle from './styles/global'
 import Header from './components/Header/Index'
 import Footer from './components/Footer/Index'
 import TechnologiesList from './components/TechnologiesList/Index'
+import { AppRoutes } from './Routes'
 
 function App() {
   const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
@@ -17,6 +18,9 @@ function App() {
   };
 
   return (
+    <>
+    <AppRoutes />
+
     <ThemeProvider theme={theme}>
       <GlobalStyle />
 
@@ -26,6 +30,7 @@ function App() {
         <Footer />
       </div>
     </ThemeProvider>
+    </>
   )
 }
 

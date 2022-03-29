@@ -1,15 +1,15 @@
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Data from './data.json'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-export function Routes() {
+import { React } from './pages/React';
+import { Node } from './pages/Node';
+
+export function AppRoutes() {
     return (
         <Router>
-            { Data.map(technologyRoutes => {
-                return (
-                    <Route path={technologyRoutes.routeLink} 
-                    element={<technologyRoutes.title />}></Route>
-                )
-            }) }
+            <Routes>
+                <Route path='/react' element={<React />} />
+                <Route path='/node' element={<Node />} />
+            </Routes>
         </Router>
     )
 }
