@@ -23,7 +23,7 @@ export default function TechnologiesList() {
                         width: '130px',
                         marginTop: '1.75rem'
                     }}
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/denojs/denojs-original.svg" />
                     <Button>React</Button>
                 </CenterContent>  
             </CardTechnology>
