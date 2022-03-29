@@ -13,6 +13,7 @@ export const Container = styled.div`
     
     height: 4.75rem;
     width: 100%;
+    margin-top: 3.75rem;
 `
 
 export const Socialmedia = styled.i`

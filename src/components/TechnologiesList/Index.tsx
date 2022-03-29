@@ -18,8 +18,7 @@ export default function TechnologiesList() {
                             <Button>{technology.title}</Button>
                         </CenterContent>  
                     </CardTechnology>
-                )
-            }) }
+                )}) }
         </ContainerGrid>
         </> 
     )
