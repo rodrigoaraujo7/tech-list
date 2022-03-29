@@ -1,19 +1,13 @@
 import { Container, CardTechnology } from "./styles"
 
-export default function Card() {
+export default function TechnologiesList() {
     return (
         <>
         <Container>
             <CardTechnology></CardTechnology>
             <CardTechnology></CardTechnology>
             <CardTechnology></CardTechnology>
-        </Container> 
-
-        <Container>
-            <CardTechnology></CardTechnology>
-            <CardTechnology></CardTechnology>
-            <CardTechnology></CardTechnology>
-        </Container> 
+        </Container>
         </> 
     )
 }

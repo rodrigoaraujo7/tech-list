@@ -7,7 +7,6 @@ export const Container = styled.div`
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
 `
 
 export const CardTechnology = styled.div`
@@ -15,6 +14,5 @@ export const CardTechnology = styled.div`
     
     width: 21.87rem;
     height: 12.5rem;
-
     border-radius: 15px;
 `
