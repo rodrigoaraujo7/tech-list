@@ -34,4 +34,15 @@ export const Button = styled.button`
     width: 65%;
     height: 3.5rem;
     margin-top: 10.5rem;
+
+    cursor: pointer;
+
+    border: 0;
+    border-radius: 10px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.45rem;
+    font-style: italic;
+    color: ${props  => props.theme.colors.text};
 `

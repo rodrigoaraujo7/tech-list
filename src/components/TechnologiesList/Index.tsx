@@ -5,9 +5,8 @@ export default function TechnologiesList() {
         <>
         <ContainerGrid>
             <CardTechnology>
-
                 <CenterContent>
-                    <Button>dwa</Button>    
+                    <Button>React</Button>    
                 </CenterContent>
             </CardTechnology>
         </ContainerGrid>
