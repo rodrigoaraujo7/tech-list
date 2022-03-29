@@ -11,6 +11,7 @@ export const ContainerGrid = styled.div`
 
 export const CardTechnology = styled.div`
     background-color: ${props  => props.theme.colors.primary};
+    box-shadow: 0 0 12.5px ${props => props.theme.colors.secondary};
 
     margin-top: 3.75rem;
     width: 21.87rem;
