@@ -4,9 +4,11 @@ export const Container = styled.div`
     width: 100%;
     min-height: 25vh;
     margin: 3.75rem 0;
+    
+    background: ${props => props.theme.colors.secondary};
 
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
 `
 
 export const CardTechnology = styled.div`
