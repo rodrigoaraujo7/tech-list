@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.footer`
+export const Container = styled.div`
     background-color: none;
     font-family: 'Caveat', cursive;
     font-size: 1rem;
@@ -10,8 +10,7 @@ export const Container = styled.footer`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    bottom: 0;
-
+    
     height: 4.75rem;
     width: 100%;
 `
