@@ -1,13 +1,16 @@
-import { Container, CardTechnology } from "./styles"
+import { ContainerGrid, CardTechnology } from "./styles"
 
 export default function TechnologiesList() {
     return (
         <>
-        <Container>
+        <ContainerGrid>
             <CardTechnology></CardTechnology>
             <CardTechnology></CardTechnology>
             <CardTechnology></CardTechnology>
-        </Container>
+            <CardTechnology></CardTechnology>
+            <CardTechnology></CardTechnology>
+            <CardTechnology></CardTechnology>
+        </ContainerGrid>
         </> 
     )
 }
