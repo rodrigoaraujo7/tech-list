@@ -1,15 +1,15 @@
-import { ContainerGrid, CardTechnology } from "./styles"
+import { ContainerGrid, CardTechnology, CenterContent, Button } from "./styles"
 
 export default function TechnologiesList() {
     return (
         <>
         <ContainerGrid>
-            <CardTechnology></CardTechnology>
-            <CardTechnology></CardTechnology>
-            <CardTechnology></CardTechnology>
-            <CardTechnology></CardTechnology>
-            <CardTechnology></CardTechnology>
-            <CardTechnology></CardTechnology>
+            <CardTechnology>
+
+                <CenterContent>
+                    <Button>dwa</Button>    
+                </CenterContent>
+            </CardTechnology>
         </ContainerGrid>
         </> 
     )

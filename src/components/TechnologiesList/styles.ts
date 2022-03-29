@@ -6,7 +6,7 @@ export const ContainerGrid = styled.div`
 
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    gap: 1.5rem;
+    gap: 0.5rem 1.5rem;
 `
 
 export const CardTechnology = styled.div`
@@ -16,4 +16,22 @@ export const CardTechnology = styled.div`
     width: 21.87rem;
     height: 12.5rem;
     border-radius: 15px;
+
+    position: relative;
+`
+
+export const CenterContent = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+`
+
+export const Button = styled.button`
+    background-color: ${props  => props.theme.colors.secondary};
+
+    width: 65%;
+    height: 3.5rem;
+    margin-top: 10.5rem;
 `
