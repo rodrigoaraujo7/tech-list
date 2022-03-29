@@ -6,8 +6,50 @@ export default function TechnologiesList() {
         <ContainerGrid>
             <CardTechnology>
                 <CenterContent>
-                    <Button>React</Button>    
-                </CenterContent>
+                    <img
+                    style={{
+                        width: '130px',
+                        marginTop: '1.75rem'
+                    }}
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    <Button>React</Button>
+                </CenterContent>  
+            </CardTechnology>
+
+            <CardTechnology>
+                <CenterContent>
+                    <img
+                    style={{
+                        width: '130px',
+                        marginTop: '1.75rem'
+                    }}
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    <Button>React</Button>
+                </CenterContent>  
+            </CardTechnology>
+
+            <CardTechnology>
+                <CenterContent>
+                    <img
+                    style={{
+                        width: '130px',
+                        marginTop: '1.75rem'
+                    }}
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    <Button>React</Button>
+                </CenterContent>  
+            </CardTechnology>
+
+            <CardTechnology>
+                <CenterContent>
+                    <img
+                    style={{
+                        width: '130px',
+                        marginTop: '1.75rem'
+                    }}
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    <Button>React</Button>
+                </CenterContent>  
             </CardTechnology>
         </ContainerGrid>
         </> 

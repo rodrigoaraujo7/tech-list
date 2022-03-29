@@ -11,7 +11,7 @@ export const ContainerGrid = styled.div`
 
 export const CardTechnology = styled.div`
     background-color: ${props  => props.theme.colors.primary};
-    
+
     margin-top: 3.75rem;
     width: 21.87rem;
     height: 12.5rem;
@@ -22,7 +22,7 @@ export const CardTechnology = styled.div`
 
 export const CenterContent = styled.div`
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 
     width: 100%;
@@ -33,7 +33,7 @@ export const Button = styled.button`
 
     width: 65%;
     height: 3.5rem;
-    margin-top: 10.5rem;
+    margin-top: 0.5rem;
 
     cursor: pointer;
 
