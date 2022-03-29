@@ -1,4 +1,3 @@
-import React from 'react'
 import usePersistedState from './utils/usePersistedState'
 
 import { ThemeProvider, DefaultTheme } from 'styled-components'
