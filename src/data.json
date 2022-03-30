@@ -75,5 +75,26 @@
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
         "routeLink": "/flutter",
         "content": ""
+    },
+    {
+        "id": 12,
+        "title": "GraphqL",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+        "routeLink": "/graphql",
+        "content": ""
+    },
+    {
+        "id": 13,
+        "title": "Kotlin",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+        "routeLink": "/kotlin",
+        "content": ""
+    },
+    {
+        "id": 14,
+        "title": "Redux",
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        "routeLink": "/redux",
+        "content": ""
     }
 ]

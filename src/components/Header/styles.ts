@@ -16,14 +16,11 @@ export const Searchbar = styled.input`
     border: 0;
     border-radius: 15px;
 
+    color: ${props => props.theme.colors.primary};
     font-size: 1.5rem;
     font-weight: bold;
 
     ::placeholder {
         color: ${props => props.theme.colors.primary};
-    }
-
-    :focus {
-        border-radius: 0;
     }
 `
