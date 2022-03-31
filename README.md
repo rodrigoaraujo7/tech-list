@@ -20,5 +20,18 @@ React Router Test
 
 | [Rodrigo L. Araujo](https://github.com/rodrigoaraujo7)
 
+## Techs
+
+- [x] React.js
+- [x] Styled Components
+- [x] TypeScript
+- [x] React Router
+
+## Functionalities
+
+- [x] Theme Switch
+- [x] Search Filter
+- [x] Page Routing
+
 # Layout on figma
 > https://www.figma.com/file/7fXu7TGOp8EvKs67RKPGJu/Untitled?node-id=0%3A1
