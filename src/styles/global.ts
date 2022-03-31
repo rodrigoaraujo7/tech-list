@@ -1,6 +1,13 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
+    ::-webkit-scrollbar {
+        width: 1rem;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: ${props => props.theme.colors.secondary};
+        border-radius: 25px;
+    }
     * {
         margin: 0;
         padding: 0;
