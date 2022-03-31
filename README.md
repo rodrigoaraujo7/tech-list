@@ -12,6 +12,10 @@ React Router Test
 
 <hr>
 
+<div align="center">
+  <img src="https://media.giphy.com/media/Mf9zGprcRtCrNcrZ7g/giphy.gif" width="480" height="270" />
+</div>
+
 ## Participants
 
 | [<img src="https://avatars.githubusercontent.com/rodrigoaraujo7" width="75px;"/>](https://github.com/guilhermerodz) |
