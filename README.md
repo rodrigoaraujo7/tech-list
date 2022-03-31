@@ -33,5 +33,15 @@ React Router Test
 - [x] Search Filter
 - [x] Page Routing
 
+## Ideas to implement
+
+- [ ] Add filter system
+- [ ] Create new pages without creating new files
+
+## Usage
+
+1. Run `yarn install`.<br />
+2. Run `yarn dev` and access `http://localhost:3000`.<br />
+
 # Layout on figma
 > https://www.figma.com/file/7fXu7TGOp8EvKs67RKPGJu/Untitled?node-id=0%3A1
