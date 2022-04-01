@@ -14,6 +14,10 @@ export const Container = styled.div`
     height: 4.75rem;
     width: 100%;
     margin-top: 3.75rem;
+
+    @media(max-width: 1023px) {
+        display: none;
+    }
 `
 
 export const Socialmedia = styled.i`
