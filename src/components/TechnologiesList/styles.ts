@@ -23,6 +23,10 @@ export const CardTechnology = styled.div`
     border-radius: 15px;
 
     position: relative;
+
+    @media(max-width: 1023px) {
+        width: 100%;
+    }
 `
 
 export const CenterContent = styled.div`

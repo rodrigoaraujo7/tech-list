@@ -40,8 +40,12 @@ export default createGlobalStyle`
     }
 
     @media(max-width: 1023px) {
+        ::-webkit-scrollbar {
+            width: 0;
+        }
         .container {
-            width: 46.75rem;
+            width: 100%;
+            margin: 1.25rem 0;
         }
     }
 `;
