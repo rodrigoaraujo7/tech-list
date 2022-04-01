@@ -7,6 +7,10 @@ export const ContainerGrid = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 0.5rem 1.5rem;
+
+    @media(max-width: 1023px) {
+        grid-template-columns: 1fr;
+    }
 `
 
 export const CardTechnology = styled.div`

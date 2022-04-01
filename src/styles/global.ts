@@ -38,4 +38,10 @@ export default createGlobalStyle`
 
         margin: 4.75rem 0;
     }
+
+    @media(max-width: 1023px) {
+        .container {
+            width: 46.75rem;
+        }
+    }
 `;
