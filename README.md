@@ -7,16 +7,26 @@
 </h1>
 
 <p align="center">
-React Router Test for study purposes.
-<br><br>
-<img align="center" alt="Figma" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
-Layout Figma <a href="https://www.figma.com/file/7fXu7TGOp8EvKs67RKPGJu/Untitled?node-id=0%3A1">here</a>.</p>
+  React Router Test for study purposes.
+</p>
 
-<hr>
+<p align="center">
+  <a href="#participants">Participants</a> •
+  <a href="#techs">Techs</a> •
+  <a href="#functionalities">Functionalities</a> •
+  <a href="#usage">Usage</a>
+</p>
+
 
 <div align="center">
   <img src="https://media.giphy.com/media/Mf9zGprcRtCrNcrZ7g/giphy.gif" width="480" height="270" />
 </div>
+
+<p align="center">
+  <br>
+  <img align="center" alt="Figma" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
+Layout Figma <a href="https://www.figma.com/file/7fXu7TGOp8EvKs67RKPGJu/Untitled?node-id=0%3A1">here</a>.
+</p>
 
 ## Participants
 
