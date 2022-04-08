@@ -7,6 +7,7 @@ export function AppRoutes() {
     return (
         <Router>
             <Routes>
+                <Route path='/' />
                 <Route path='/php' element={<Php />} />
                 <Route path='*' element={<ErrorPage />} />
             </Routes>
