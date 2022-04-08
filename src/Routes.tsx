@@ -1,14 +1,12 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { React } from './pages/React';
-import { Node } from './pages/Node';
+import Php from './pages/Php';
 
 export function AppRoutes() {
     return (
         <Router>
             <Routes>
-                <Route path='/react' element={<React />} />
-                <Route path='/node' element={<Node />} />
+                <Route path='/php' element={<Php />} />
             </Routes>
         </Router>
     )
