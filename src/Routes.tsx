@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Php from './pages/Php';
+import CakePhp from './pages/CakePhp';
 import ErrorPage from './pages/ErrorPage';
 
 export function AppRoutes() {
@@ -8,7 +8,7 @@ export function AppRoutes() {
         <Router>
             <Routes>
                 <Route path='/' />
-                <Route path='/php' element={<Php />} />
+                <Route path='/cakephp' element={<CakePhp />} />
                 <Route path='*' element={<ErrorPage />} />
             </Routes>
         </Router>
