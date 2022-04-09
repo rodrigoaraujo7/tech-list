@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const ContainerGrid = styled.div`
     width: 100%;
@@ -54,5 +55,11 @@ export const Button = styled.button`
     font-weight: 600;
     font-size: 1.45rem;
     font-style: italic;
-    color: ${props  => props.theme.colors.text};
 `
+
+export const StyledLink = styled(Link)`
+  color: ${props  => props.theme.colors.text};
+  text-decoration: none;
+  outline: none;
+`;
+

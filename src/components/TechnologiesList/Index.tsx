@@ -1,4 +1,4 @@
-import { ContainerGrid, CardTechnology, CenterContent, Button } from "./styles"
+import { ContainerGrid, CardTechnology, CenterContent, Button, StyledLink } from "./styles"
 import Data from '../../data.json'
 
 import { BrowserRouter as Router, Link } from "react-router-dom"
@@ -17,7 +17,9 @@ export default function TechnologiesList() {
                                     marginTop: '1.75rem'
                                 }}
                                 src={technology.image} />
-                                <Button><Link to="/php">{technology.title}</Link></Button>
+                                <Button>
+                                    <StyledLink to={technology.routeLink}>{technology.title}</StyledLink>
+                                </Button>
                             </CenterContent>  
                         </CardTechnology>
                     )}) }
