@@ -1,7 +1,7 @@
 import { ContainerGrid, CardTechnology, CenterContent, Button, StyledLink } from "./styles"
 import Data from '../../data.json'
 
-import { BrowserRouter as Router, Link } from "react-router-dom"
+import { BrowserRouter as Router } from "react-router-dom"
 
 export default function TechnologiesList() {
     return (

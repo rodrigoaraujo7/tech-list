@@ -8,7 +8,6 @@ import GlobalStyle from './styles/global'
 import Header from './components/Header/Index'
 import Footer from './components/Footer/Index'
 import TechnologiesList from './components/TechnologiesList/Index'
-
 import { AppRoutes } from './Routes'
 
 function App() {

@@ -3,98 +3,98 @@
         "id": 1,
         "title": "React",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        "routeLink": "/react",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 2,
         "title": "Node",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        "routeLink": "/node",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 3,
         "title": "Npm",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
-        "routeLink": "/npm",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 4,
         "title": "Yarn",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg",
-        "routeLink": "/yarn",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 5,
         "title": "Elixir",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg",
-        "routeLink": "/elixir",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 6,
         "title": "Angular",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
-        "routeLink": "/angular",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 7,
         "title": "CakePHP",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cakephp/cakephp-original.svg",
-        "routeLink": "/cakephp",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 8,
         "title": "Docker",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-        "routeLink": "/docker",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 9,
         "title": "Electron",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg",
-        "routeLink": "/electron",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 10,
         "title": "Figma",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-        "routeLink": "/figma",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 11,
         "title": "Flutter",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
-        "routeLink": "/flutter",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 12,
         "title": "GraphqL",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-        "routeLink": "/graphql",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 13,
         "title": "Kotlin",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
-        "routeLink": "/kotlin",
+        "routeLink": "/tech",
         "content": ""
     },
     {
         "id": 14,
         "title": "Redux",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-        "routeLink": "/redux",
+        "routeLink": "/tech",
         "content": ""
     }
 ]

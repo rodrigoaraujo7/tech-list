@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import CakePhp from './pages/CakePhp';
 import ErrorPage from './pages/ErrorPage';
+import TechPage from './pages/TechPage';
 
 export function AppRoutes() {
     return (
         <Router>
             <Routes>
                 <Route path='/' />
-                <Route path='/cakephp' element={<CakePhp />} />
                 <Route path='*' element={<ErrorPage />} />
+                <Route path='/tech' element={<TechPage />} />
             </Routes>
         </Router>
     )
