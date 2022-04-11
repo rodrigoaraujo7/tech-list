@@ -55,6 +55,7 @@ export const Button = styled.button`
     font-weight: 600;
     font-size: 1.45rem;
     font-style: italic;
+    text-transform: capitalize
 `
 
 export const StyledLink = styled(Link)`

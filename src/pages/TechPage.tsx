@@ -4,8 +4,13 @@ import { ThemeProvider, DefaultTheme } from 'styled-components'
 import light from '../styles/themes/light'
 import dark from '../styles/themes/dark'
 
+import Data from '../data.json'
+import { useParams } from "react-router-dom";
+
 export default function TechPage() {
     const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
+
+    let {techname} = useParams()
 
     return (
         <ThemeProvider theme={theme}>
@@ -24,8 +29,9 @@ export default function TechPage() {
         </Header>
 
         <Content>
-            <Title>Tech Title</Title><br />
-            <Text>lorem</Text>
+            <Title>{techname}</Title>
+            <br />
+            <Text>dwa</Text>
         </Content>
         </ThemeProvider>
     )

@@ -1,100 +1,100 @@
 [
     {
         "id": 1,
-        "title": "React",
+        "title": "react",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "react",
         "content": ""
     },
     {
         "id": 2,
-        "title": "Node",
+        "title": "node",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:node",
         "content": ""
     },
     {
         "id": 3,
-        "title": "Npm",
+        "title": "npm",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:npm",
         "content": ""
     },
     {
         "id": 4,
-        "title": "Yarn",
+        "title": "yarn",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:yarn",
         "content": ""
     },
     {
         "id": 5,
-        "title": "Elixir",
+        "title": "elixir",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:elixir",
         "content": ""
     },
     {
         "id": 6,
-        "title": "Angular",
+        "title": "angular",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:angular",
         "content": ""
     },
     {
         "id": 7,
-        "title": "CakePHP",
+        "title": "cakePHP",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cakephp/cakephp-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:cakephp",
         "content": ""
     },
     {
         "id": 8,
-        "title": "Docker",
+        "title": "docker",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:docker",
         "content": ""
     },
     {
         "id": 9,
-        "title": "Electron",
+        "title": "electron",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:electron",
         "content": ""
     },
     {
         "id": 10,
-        "title": "Figma",
+        "title": "figma",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:figma",
         "content": ""
     },
     {
         "id": 11,
-        "title": "Flutter",
+        "title": "flutter",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:flutter",
         "content": ""
     },
     {
         "id": 12,
-        "title": "GraphqL",
+        "title": "graphqL",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:graphql",
         "content": ""
     },
     {
         "id": 13,
-        "title": "Kotlin",
+        "title": "kotlin",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:kotlin",
         "content": ""
     },
     {
         "id": 14,
-        "title": "Redux",
+        "title": "redux",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-        "routeLink": "/tech",
+        "routeLink": "/:redux",
         "content": ""
     }
 ]

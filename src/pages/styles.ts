@@ -28,6 +28,7 @@ export const Content = styled.div`
 export const Title = styled.h1`
     font-size: 4rem;
     color: ${props => props.theme.colors.text};
+    text-transform: capitalize
 `
 
 export const Text = styled.p`
