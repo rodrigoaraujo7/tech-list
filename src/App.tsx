@@ -1,36 +1,18 @@
-import usePersistedState from './utils/usePersistedState'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { ThemeProvider, DefaultTheme } from 'styled-components'
-import light from './styles/themes/light'
-import dark from './styles/themes/dark'
-
-import GlobalStyle from './styles/global'
-import Header from './components/Header/Index'
-import Footer from './components/Footer/Index'
-import TechnologiesList from './components/TechnologiesList/Index'
-import { AppRoutes } from './Routes'
+import Home from './pages/Home';
+import ErrorPage from './pages/ErrorPage';
+import TechPage from './pages/TechPage';
 
 function App() {
-  const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
-
-  const toggleTheme = () => {
-    setTheme(theme.title === 'light' ? dark : light);
-  };
-
   return (
-    <>
-    <AppRoutes />
-
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
-
-      <div className="container">
-        <Header toggleTheme={toggleTheme} />
-        <TechnologiesList />
-        <Footer />
-      </div>
-    </ThemeProvider>
-    </>
+    <Router>
+      <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='*' element={<ErrorPage />} />
+          <Route path='/:techname' element={<TechPage />} />
+      </Routes>
+    </Router>
   )
 }
 
