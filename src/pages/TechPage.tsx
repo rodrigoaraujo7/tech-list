@@ -15,7 +15,6 @@ type Icontent = {
     id: Number,
     title: string,
     image: string,
-    routerLink: string,
     content: string
 }
 

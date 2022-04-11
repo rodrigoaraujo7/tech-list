@@ -18,7 +18,7 @@ export default function TechnologiesList() {
                                 }}
                                 src={technology.image} />
                                 <Button>
-                                    <StyledLink to={technology.routeLink}>{technology.title}</StyledLink>
+                                    <StyledLink to={technology.title}>{technology.title}</StyledLink>
                                 </Button>
                             </CenterContent>  
                         </CardTechnology>
