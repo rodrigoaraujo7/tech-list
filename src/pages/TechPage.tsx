@@ -1,8 +1,9 @@
-import { Container, Box } from "./styles";
+import { Header, Box, Content, Title, Text } from "./styles";
 
 export default function TechPage() {
     return (
-        <Container>
+        <>
+        <Header>
             <div className="left" style={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -14,6 +15,12 @@ export default function TechPage() {
             <div className="right">
                 <Box />
             </div>
-        </Container>
+        </Header>
+
+        <Content>
+            <Title>Tech Title</Title><br />
+            <Text>lorem</Text>
+        </Content>
+        </>
     )
 }
