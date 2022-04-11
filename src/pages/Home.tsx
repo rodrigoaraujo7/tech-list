@@ -9,7 +9,7 @@ import Header from '../components/Header/Index'
 import Footer from '../components/Footer/Index'
 import TechnologiesList from '../components/TechnologiesList/Index'
 
-const Home = () => {
+export default function Home() {
   const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
 
   const toggleTheme = () => {
@@ -30,5 +30,3 @@ const Home = () => {
     </>
   )
 }
-
-export default Home
