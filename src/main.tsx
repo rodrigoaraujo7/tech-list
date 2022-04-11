@@ -1,10 +1,23 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
+import { render } from "react-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-)
+import App from "./App";
+import Home from "./routes/Home";
+import ErrorPage from "./routes/ErrorPage";
+import TechPage from "./routes/TechPage";
+
+const rootElement = document.getElementById("root");
+render(
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<><App /><Home /></>} />
+      <Route path="*" element={<ErrorPage />} />
+      <Route path="/:techname" element={<TechPage />} />
+    </Routes>
+  </BrowserRouter>,
+  rootElement
+);

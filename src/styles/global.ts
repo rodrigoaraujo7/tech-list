@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
     ::-webkit-scrollbar {
-        width: 1rem;
+        width: 0.75rem;
     }
     ::-webkit-scrollbar-thumb {
         background: ${props => props.theme.colors.secondary};
