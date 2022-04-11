@@ -9,26 +9,28 @@ export const Header = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    color: ${props => props.theme.colors.secondary}
 `
 
 export const Box = styled.div`
     height: 1.25rem;
     width: 2rem;
 
-    background: red;
+    background: ${props => props.theme.colors.secondary};
 `
 
 export const Content = styled.div`
     min-height: 1.5rem;
     max-width: 68.5rem;
-
-    background-color: red;
 `
 
 export const Title = styled.h1`
     font-size: 4rem;
+    color: ${props => props.theme.colors.text};
 `
 
 export const Text = styled.p`
     font-size: 1.85rem;
+    color: ${props => props.theme.colors.text};
 `
