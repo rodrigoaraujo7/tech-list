@@ -8,9 +8,6 @@ import GlobalStyle from './styles/global'
 import Footer from './components/Footer/Index'
 import Header from './components/Header/Index'
 
-import TechnologiesList from './components/TechnologiesList/Index'
-
-
 function App() {
   const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
 
@@ -19,18 +16,17 @@ function App() {
   };
 
   return (
-    <>
+    <div className='container'>
     <ThemeProvider theme={theme}>
       <GlobalStyle />
 
-      <div className="container">
         <Header toggleTheme={toggleTheme} />
 
+        {/* Route Here!!!!! */}
 
-        <Footer />
-      </div>
+        {/* <Footer /> */}
     </ThemeProvider>
-    </>
+    </div>
   )
 }
 

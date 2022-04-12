@@ -1,10 +1,11 @@
 import { ContainerGrid, CardTechnology, CenterContent, Button, StyledLink } from "./styles"
 import Data from '../../data.json'
 
-import { Outlet } from "react-router-dom"
+import Footer from "../Footer/Index" 
 
 export default function TechnologiesList() {
     return (
+        <>
         <ContainerGrid>
             { Data.map(technology => {
                 return (
@@ -23,5 +24,8 @@ export default function TechnologiesList() {
                     </CardTechnology>
                 )}) }
         </ContainerGrid>
+
+        <Footer />
+        </>
     )
 }

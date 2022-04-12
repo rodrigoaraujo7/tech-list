@@ -12,6 +12,7 @@ export const ContainerGrid = styled.div`
     @media(max-width: 1023px) {
         grid-template-columns: 1fr;
         margin-bottom: 2.25rem;
+        padding: 0 0 10rem;
     }
 `
 

@@ -14,9 +14,10 @@ const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<><App /><Home /></>} />
-      <Route path="*" element={<ErrorPage />} />
-      <Route path="/:techname" element={<TechPage />} />
+      <Route path="/" element={<><App /><Home /></>}>
+        <Route path="*" element={<ErrorPage />} />
+        <Route path="/:techname" element={<TechPage />} />
+      </Route>
     </Routes>
   </BrowserRouter>,
   rootElement

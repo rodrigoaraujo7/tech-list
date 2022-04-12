@@ -34,9 +34,9 @@ export default createGlobalStyle`
 
     .container {
         width: 68.5rem;
-        min-height: 30rem;
+        min-height: 100%;
 
-        margin: 4.75rem 0;
+        margin: 4.75rem 0 1.75rem;
     }
 
     @media(max-width: 1023px) {
@@ -45,7 +45,7 @@ export default createGlobalStyle`
         }
         .container {
             width: 100%;
-            margin: 1.25rem 0;
+            margin: 1.25rem 0 0.75rem;
         }
     }
 `;
