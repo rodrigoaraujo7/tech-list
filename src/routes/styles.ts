@@ -4,7 +4,7 @@ export const Header = styled.div`
     height: 5rem;
     width: 100%;
 
-    margin: 4.75rem 0;
+    margin: 0 0 4.75rem 0;
 
     display: flex;
     justify-content: space-between;

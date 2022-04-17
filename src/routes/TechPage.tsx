@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 
+import GlobalStyle from '../styles/global'
 import { Header, Box, Content, Title, Text } from "./styles";
+
 import usePersistedState from '../utils/usePersistedState'
 import { ThemeProvider, DefaultTheme } from 'styled-components'
 import light from '../styles/themes/light'
@@ -39,31 +41,34 @@ export default function TechPage() {
     console.log(content)
 
     return (
-        <ThemeProvider theme={theme}>
-        <Header>
-            <div className="left" style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                cursor: 'pointer'
-            }} onClick={() => {
-                navigate('/')
-            }}>
-                <img src={returnDark} style={{
-                    width: '2.5rem'
-                }} />
-                <h2 style={{ marginLeft: '1rem' }}>Return</h2>
-            </div>
-            <div className="right">
-                <Box />
-            </div>
-        </Header>
+        <div className="container" style={{margin: '1.75rem'}}>
+            <ThemeProvider theme={theme}>
+                <GlobalStyle />
+                <Header>
+                    <div className="left" style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        cursor: 'pointer'
+                    }} onClick={() => {
+                        navigate('/')
+                    }}>
+                        <img src={returnDark} style={{
+                            width: '2.5rem'
+                        }} />
+                        <h2 style={{ marginLeft: '1rem' }}>Return</h2>
+                    </div>
+                    <div className="right">
+                        <Box />
+                    </div>
+                </Header>
 
-        <Content>
-            <Title>{content[0]?.title}</Title>
-            <br />
-            <Text>{content[0]?.content}</Text>
-        </Content>
-        </ThemeProvider>
+                <Content>
+                    <Title>{content[0]?.title}</Title>
+                    <br />
+                    <Text>{content[0]?.content}</Text>
+                </Content>
+            </ThemeProvider>
+        </div>
     )
 }
