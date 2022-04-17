@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Header = styled.div`
     height: 5rem;
@@ -35,3 +36,7 @@ export const Text = styled.p`
     font-size: 1.85rem;
     color: ${props => props.theme.colors.text};
 `
+
+export const StyledLink = styled(Link)`
+  color: ${props  => props.theme.colors.secondary};
+`;

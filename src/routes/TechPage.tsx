@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import GlobalStyle from '../styles/global'
-import { Header, Box, Content, Title, Text } from "./styles";
+import { Header, Box, Content, Title, Text, StyledLink } from "./styles";
 
 import usePersistedState from '../utils/usePersistedState'
 import { ThemeProvider, DefaultTheme } from 'styled-components'
@@ -17,7 +17,8 @@ type Icontent = {
     id: Number,
     title: string,
     image: string,
-    content: string
+    content: string,
+    link: string
 }
 
 export default function TechPage() {
@@ -41,7 +42,7 @@ export default function TechPage() {
     console.log(content)
 
     return (
-        <div className="container" style={{margin: '1.75rem'}}>
+        <div className="container" style={{margin: '1rem'}}>
             <ThemeProvider theme={theme}>
                 <GlobalStyle />
                 <Header>
