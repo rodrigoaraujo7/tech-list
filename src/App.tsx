@@ -7,6 +7,7 @@ import dark from './styles/themes/dark'
 import GlobalStyle from './styles/global'
 import Header from './components/Header/Index'
 import Footer from './components/Footer/Index'
+import TechnologiesList from './components/TechnologiesList/Index'
 
 function App() {
   const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
@@ -16,16 +17,14 @@ function App() {
   };
 
   return (
-    <>
-    <ThemeProvider theme={theme}>
-      <div className="container">
-      <GlobalStyle />
-      <Header toggleTheme={toggleTheme} />
-      {/* Router Here */}
-      <Footer />
-      </div>
-    </ThemeProvider>
-    </>
+    <div className="container">
+      <ThemeProvider theme={theme}>
+          <GlobalStyle />
+          <Header toggleTheme={toggleTheme} />
+          <TechnologiesList />
+          <Footer />
+      </ThemeProvider>
+    </div>
   )
 }
 
