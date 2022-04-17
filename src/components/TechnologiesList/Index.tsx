@@ -1,8 +1,6 @@
 import { ContainerGrid, CardTechnology, CenterContent, Button, StyledLink } from "./styles"
 import Data from '../../data.json'
 
-import Footer from "../Footer/Index" 
-
 export default function TechnologiesList() {
     return (
         <>
@@ -24,8 +22,6 @@ export default function TechnologiesList() {
                     </CardTechnology>
                 )}) }
         </ContainerGrid>
-
-        <Footer />
         </>
     )
 }

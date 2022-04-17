@@ -14,5 +14,4 @@ export default function Home() {
       <TechnologiesList />  
     </ThemeProvider>
   )
-  // return <h1>dwaydwa</h1>
 }

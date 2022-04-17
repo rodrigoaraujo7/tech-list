@@ -5,8 +5,8 @@ import light from './styles/themes/light'
 import dark from './styles/themes/dark'
 
 import GlobalStyle from './styles/global'
-import Footer from './components/Footer/Index'
 import Header from './components/Header/Index'
+import Footer from './components/Footer/Index'
 
 function App() {
   const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
@@ -16,17 +16,16 @@ function App() {
   };
 
   return (
-    <div className='container'>
+    <>
     <ThemeProvider theme={theme}>
+      <div className="container">
       <GlobalStyle />
-
-        <Header toggleTheme={toggleTheme} />
-
-        {/* Route Here!!!!! */}
-
-        {/* <Footer /> */}
+      <Header toggleTheme={toggleTheme} />
+      {/* Router Here */}
+      <Footer />
+      </div>
     </ThemeProvider>
-    </div>
+    </>
   )
 }
 
