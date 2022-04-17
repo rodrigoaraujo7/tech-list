@@ -60,7 +60,7 @@ export default function TechPage() {
                         <h2 style={{ marginLeft: '1rem' }}>Return</h2>
                     </div>
                     <div className="right">
-                        <Box />
+                        {/* <Box /> */}
                     </div>
                 </Header>
 
