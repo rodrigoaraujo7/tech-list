@@ -11,7 +11,12 @@ export const Header = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    color: ${props => props.theme.colors.secondary}
+    color: ${props => props.theme.colors.secondary};
+
+    @media(max-width: 1023px) {
+        margin: 0 0 2.75rem  0;
+        width: 85%;
+    }
 `
 
 export const Box = styled.div`
@@ -24,6 +29,10 @@ export const Box = styled.div`
 export const Content = styled.div`
     min-height: 1.5rem;
     max-width: 68.5rem;
+
+    @media(max-width: 1023px) {
+        max-width: 85%;
+    }
 `
 
 export const Title = styled.h1`
@@ -33,8 +42,13 @@ export const Title = styled.h1`
 `
 
 export const Text = styled.p`
-    font-size: 1.85rem;
+    font-size: 1.35rem;
+    font-weight: 500;
     color: ${props => props.theme.colors.text};
+
+    @media(max-width: 1023px) {
+        font-weight: 600;
+    }
 `
 
 export const StyledLink = styled(Link)`

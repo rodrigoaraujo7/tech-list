@@ -3,7 +3,8 @@
         "id": 1,
         "title": "react",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        "content": "React is a JavaScript-based UI development library. Facebook and an open-source developer community run it. Although React is a library rather than a language, it is widely used in web development. The library first appeared in May 2013 and is now one of the most commonly used frontend libraries for web development. React offers various extensions for entire application architectural support, such as Flux and React Native, beyond mere UI"
+        "fcontent": "React is a JavaScript-based UI development library. Facebook and an open-source developer community run it. Although React is a library rather than a language, it is widely used in web development. The library first appeared in May 2013 and is now one of the most commonly used frontend libraries for web development.",
+        "scontent": "React offers various extensions for entire application architectural support, such as Flux and React Native, beyond mere UI"
     },
     {
         "id": 2,

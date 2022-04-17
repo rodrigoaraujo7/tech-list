@@ -43,6 +43,9 @@ export default createGlobalStyle`
         ::-webkit-scrollbar {
             width: 0;
         }
+        body {
+            min-height: 0;
+        }
         .container {
             width: 100%;
             margin: 1.25rem 0 0.75rem;

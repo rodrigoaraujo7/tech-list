@@ -65,9 +65,11 @@ export default function TechPage() {
                 </Header>
 
                 <Content>
-                    <Title>{content[0]?.title}</Title>
+                    <Title><img src={content[0]?.image} style={{width: '3rem'}} /> {content[0]?.title}</Title>
                     <br />
-                    <Text>{content[0]?.content}</Text>
+                    <Text>{content[0]?.fcontent}</Text>
+                    <br />
+                    <Text>{content[0]?.scontent}</Text>
                 </Content>
             </ThemeProvider>
         </div>
