@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { motion } from 'framer-motion'
 
 export const ContainerGrid = styled.div`
     width: 100%;
@@ -16,7 +17,7 @@ export const ContainerGrid = styled.div`
     }
 `
 
-export const CardTechnology = styled.div`
+export const CardTechnology = styled(motion.div)`
     background-color: ${props  => props.theme.colors.primary};
     box-shadow: 0 0 12.5px ${props => props.theme.colors.secondary};
 
