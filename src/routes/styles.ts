@@ -29,6 +29,7 @@ export const Box = styled.div`
 export const Content = styled.div`
     min-height: 1.5rem;
     max-width: 68.5rem;
+    padding-bottom: 2rem;
 
     @media(max-width: 1023px) {
         max-width: 85%;

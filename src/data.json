@@ -10,78 +10,91 @@
         "id": 2,
         "title": "node",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 3,
         "title": "npm",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 4,
         "title": "yarn",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 5,
         "title": "elixir",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 6,
         "title": "angular",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 7,
         "title": "cakePHP",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cakephp/cakephp-original.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 8,
         "title": "docker",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 9,
         "title": "electron",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 10,
         "title": "figma",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 11,
         "title": "flutter",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 12,
         "title": "graphqL",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 13,
         "title": "kotlin",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     },
     {
         "id": 14,
         "title": "redux",
         "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-        "content": ""
+        "fcontent": "First Content",
+        "scontent": "Second Content"
     }
 ]
