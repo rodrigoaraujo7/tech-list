@@ -11,8 +11,8 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
     const {colors, title} = useContext(ThemeContext)
 
     return(
-        <Container>
-            <Switch 
+        <Container initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
+            <Switch
                 onChange={toggleTheme}
                 checked={title === 'dark'}
                 checkedIcon={false}
@@ -24,7 +24,12 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
                 onColor={colors.secondary}
             />
             <br />
-            <Searchbar type="text" placeholder="Name" />
+            <Searchbar 
+                initial={{ opacity: 0, y: 20 }} 
+                animate={{ opacity: 1, y: 0 }} 
+                transition={{ delay: 0.75, duration: .35 }}
+                type="text" placeholder="Name" 
+            />
         </Container>
     )
 };

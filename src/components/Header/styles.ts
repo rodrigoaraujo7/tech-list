@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import { motion } from 'framer-motion'
 
-export const Container = styled.div`
+export const Container = styled(motion.div)`
     color: ${props => props.theme.colors.text};
     height: 5rem;
 `
 
-export const Searchbar = styled.input`
+export const Searchbar = styled(motion.input)`
     background-color: ${props => props.theme.colors.secondary};
 
     height: 2.75rem;
