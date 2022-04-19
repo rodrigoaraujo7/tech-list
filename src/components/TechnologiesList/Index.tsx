@@ -4,33 +4,43 @@ import { useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer';
 import Data from '../../data.json'
 
-export default function TechnologiesList() {
+const cardVariants = {
+    hidden: { opacity: 0, scale: 0.98 },
+    visible: {
+        opacity: 1,
+        scale: 1,
+        transition: {
+            delay: .5, 
+            duration: 0.25
+        },
+    },
+  };
+
+const AnimatedCard = (props:any) => {
     const controls = useAnimation();
-    const { ref, inView } = useInView();
+    const [ref, inView] = useInView();
 
     useEffect(() => {
-        if (inView) {
-            controls.start('visible')
-        }
+      if (inView) {
+        controls.start("visible");
+      }
     }, [controls, inView]);
-
-    const cardsAnimation = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: {
-                delay: 1, 
-                duration: 0.5
-            },
-        },
-    };
 
     return (
         <>
+        <CardTechnology ref={ref} initial="hidden" animate={controls} variants={cardVariants}>
+        </CardTechnology>
+        </>
+        
+    );
+  }
+
+export default function TechnologiesList() {
+    return (
         <ContainerGrid>
             { Data.map(technology => {
                 return (
-                    <CardTechnology ref={ref} initial="hidden" animate={controls} variants={cardsAnimation}>
+                    <AnimatedCard>
                         <CenterContent>
                             <img
                             style={{
@@ -42,9 +52,8 @@ export default function TechnologiesList() {
                                 <StyledLink to={technology.title}>{technology.title}</StyledLink>
                             </Button>
                         </CenterContent>  
-                    </CardTechnology>
+                    </AnimatedCard>
                 )}) }
         </ContainerGrid>
-        </>
     )
 }

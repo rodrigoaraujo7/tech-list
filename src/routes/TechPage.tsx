@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+import { motion } from "framer-motion";
 import GlobalStyle from '../styles/global'
 import { Header, Box, Content, Title, Text, StyledLink } from "./styles";
 
@@ -45,7 +46,11 @@ export default function TechPage() {
         <div className="container" style={{margin: '1rem'}}>
             <ThemeProvider theme={theme}>
                 <GlobalStyle />
-                <Header>
+                <Header 
+                initial={{ opacity: 0, y: -10 }} 
+                animate={{ opacity: 1, y: 0 }} 
+                transition={{ delay: .5, duration: .35 }} 
+                >
                     <div className="left" style={{
                         display: 'flex',
                         justifyContent: 'center',
@@ -65,11 +70,28 @@ export default function TechPage() {
                 </Header>
 
                 <Content>
-                    <Title><img src={content[0]?.image} style={{width: '3rem'}} /> {content[0]?.title}</Title>
+                    <Title
+                    initial={{ opacity: 0, y: -10 }} 
+                    animate={{ opacity: 1, y: 0 }} 
+                    transition={{ delay: .85, duration: .35 }} 
+                    >
+                        <motion.img 
+                        src={content[0]?.image} 
+                        style={{width: '3rem'}} 
+                        initial={{ opacity: 0, rotate: 0 }} 
+                        animate={{ opacity: 1, rotate: 360 }} 
+                        transition={{ delay: .65, duration: .75 }} 
+                        /> {content[0]?.title}
+                    </Title>
                     <br />
-                    <Text>{content[0]?.fcontent}</Text>
-                    <br />
-                    <Text>{content[0]?.scontent}</Text>
+                    <motion.div 
+                    initial={{ opacity: 0 }} 
+                    animate={{ opacity: 1 }} 
+                    transition={{ delay: 1, duration: .35 }}>
+                        <Text>{content[0]?.fcontent}</Text>
+                        <br />
+                        <Text>{content[0]?.scontent}</Text>
+                    </motion.div>
                 </Content>
             </ThemeProvider>
         </div>

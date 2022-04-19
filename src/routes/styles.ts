@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion"
 
-export const Header = styled.div`
+export const Header = styled(motion.div)`
     height: 5rem;
     width: 100%;
 
@@ -36,13 +37,13 @@ export const Content = styled.div`
     }
 `
 
-export const Title = styled.h1`
+export const Title = styled(motion.h1)`
     font-size: 4rem;
     color: ${props => props.theme.colors.text};
     text-transform: capitalize
 `
 
-export const Text = styled.p`
+export const Text = styled(motion.p)`
     font-size: 1.35rem;
     font-weight: 500;
     color: ${props => props.theme.colors.text};
