@@ -4,6 +4,8 @@ import { ThemeProvider, DefaultTheme } from 'styled-components'
 import light from './styles/themes/light'
 import dark from './styles/themes/dark'
 
+import { motion } from 'framer-motion'
+
 import GlobalStyle from './styles/global'
 import Header from './components/Header/Index'
 import Footer from './components/Footer/Index'
@@ -17,14 +19,19 @@ function App() {
   };
 
   return (
-    <div className="container">
+    <motion.div 
+      className="container" 
+      initial={{ x: 0 }}
+      animate={{ x: 0 }}
+      exit={{ x: -8000, transition: { duration: 0.7 } }}
+    >
       <ThemeProvider theme={theme}>
           <GlobalStyle />
           <Header toggleTheme={toggleTheme} />
           <TechnologiesList />
           <Footer />
       </ThemeProvider>
-    </div>
+    </motion.div>
   )
 }
 
