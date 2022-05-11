@@ -25,7 +25,7 @@
 <p align="center">
   <br>
   <img align="center" alt="Figma" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
-Layout Figma <a href="https://www.figma.com/file/7fXu7TGOp8EvKs67RKPGJu/Untitled?node-id=0%3A1">here</a>.
+Layout on Figma <a href="https://www.figma.com/file/7fXu7TGOp8EvKs67RKPGJu/Untitled?node-id=0%3A1">here</a>.
 </p>
 
 ## Participants
@@ -55,7 +55,21 @@ Layout Figma <a href="https://www.figma.com/file/7fXu7TGOp8EvKs67RKPGJu/Untitled
 - [x] Create new pages without creating new files
 - [ ] Updating on cloud using AWS
 
+## How to download the project:
+
+```bash
+# Clone the repository
+$ git clone https://github.com/rodrigoaraujo7/reactrouter-test.git
+
+# Enter directory
+$ cd reactrouter-test
+```
+
 ## Usage
 
 1. Run `yarn install`.<br />
 2. Run `yarn dev` and access `http://localhost:3000`.<br />
+
+<br/>
+
+<p align="center"> Developed by <a href="https://www.linkedin.com/in/rodrigo-leite-araujo-a2a1b119b/">Rodrigo Leite Araujo</a> ⚓</p>
