@@ -53,7 +53,8 @@ Layout Figma <a href="https://www.figma.com/file/7fXu7TGOp8EvKs67RKPGJu/Untitled
 ## Ideas to implement
 
 - [ ] Add filter system
-- [ ] Create new pages without creating new files
+- [x] Create new pages without creating new files
+- [ ] Updating on cloud using AWS
 
 ## Usage
 
