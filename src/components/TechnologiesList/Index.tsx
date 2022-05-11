@@ -1,7 +1,4 @@
-import { useEffect } from "react";
 import { ContainerGrid, CardTechnology, CenterContent, Button, StyledLink } from "./styles"
-import { useAnimation } from 'framer-motion'
-import { useInView } from 'react-intersection-observer';
 import Data from '../../data.json'
 
 const cardVariants = {
@@ -10,37 +7,18 @@ const cardVariants = {
         opacity: 1,
         scale: 1,
         transition: {
-            delay: .5, 
+            delay: 1, 
             duration: 0.25
         },
     },
   };
-
-const AnimatedCard = (props:any) => {
-    const controls = useAnimation();
-    const [ref, inView] = useInView();
-
-    useEffect(() => {
-      if (inView) {
-        controls.start("visible");
-      }
-    }, [controls, inView]);
-
-    return (
-        <>
-        <CardTechnology ref={ref} initial="hidden" animate={controls} variants={cardVariants}>
-        </CardTechnology>
-        </>
-        
-    );
-  }
 
 export default function TechnologiesList() {
     return (
         <ContainerGrid>
             { Data.map(technology => {
                 return (
-                    <AnimatedCard>
+                    <CardTechnology initial="hidden" animate="visible" variants={cardVariants}>
                         <CenterContent>
                             <img
                             style={{
@@ -52,7 +30,7 @@ export default function TechnologiesList() {
                                 <StyledLink to={technology.title}>{technology.title}</StyledLink>
                             </Button>
                         </CenterContent>  
-                    </AnimatedCard>
+                    </CardTechnology>
                 )}) }
         </ContainerGrid>
     )
