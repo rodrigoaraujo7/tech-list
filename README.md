@@ -2,7 +2,7 @@
   <br>
   <img src="https://i.imgur.com/zUscmOd.png" alt="Logo" width="100">
   <br>
-  React Router Test
+  Tech List App
   <br>
 </h1>
 
