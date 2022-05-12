@@ -59,10 +59,10 @@ Layout on Figma <a href="https://www.figma.com/file/7fXu7TGOp8EvKs67RKPGJu/Untit
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/rodrigoaraujo7/reactrouter-test.git
+$ git clone https://github.com/rodrigoaraujo7/tech-list.git
 
 # Enter directory
-$ cd reactrouter-test
+$ cd tech-list
 ```
 
 ## Usage
