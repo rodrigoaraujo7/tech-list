@@ -1,4 +1,5 @@
 import usePersistedState from './utils/usePersistedState'
+import { useState } from 'react'
 
 import { ThemeProvider, DefaultTheme } from 'styled-components'
 import light from './styles/themes/light'
@@ -12,11 +13,14 @@ import Footer from './components/Footer/Index'
 import TechnologiesList from './components/TechnologiesList/Index'
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState('')
   const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light);
 
   const toggleTheme = () => {
     setTheme(theme.title === 'light' ? dark : light);
   };
+
+  const searchHandler = () => {}
 
   return (
     <motion.div 
@@ -28,7 +32,10 @@ function App() {
       <ThemeProvider theme={theme}>
           <GlobalStyle />
           <Header toggleTheme={toggleTheme} />
-          <TechnologiesList />
+          <TechnologiesList 
+          term={searchTerm} 
+          searchKeyword={searchHandler} 
+          />
           <Footer />
       </ThemeProvider>
     </motion.div>

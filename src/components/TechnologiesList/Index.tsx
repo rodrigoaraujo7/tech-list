@@ -13,7 +13,14 @@ const cardVariants = {
     },
   };
 
-export default function TechnologiesList() {
+interface ListProp {
+    term: any,
+    searchKeyword: any
+}
+
+export default function TechnologiesList(props: ListProp) {
+    console.log(props)
+
     return (
         <ContainerGrid>
             { Data.map(technology => {

@@ -28,7 +28,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
                 initial={{ opacity: 0, y: 20 }} 
                 animate={{ opacity: 1, y: 0 }} 
                 transition={{ delay: 0.75, duration: .5 }}
-                type="text" placeholder="Name" 
+                type="text" placeholder="Tech Name" className="prompt"
             />
         </Container>
     )
