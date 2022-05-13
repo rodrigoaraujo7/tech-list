@@ -1,4 +1,5 @@
 import { ContainerGrid, CardTechnology, CenterContent, Button, StyledLink } from "./styles"
+import { Searchbar } from "../Header/styles";
 import Data from '../../data.json'
 
 const cardVariants = {
@@ -12,7 +13,7 @@ const cardVariants = {
         },
     },
   };
-
+  
 interface ListProp {
     term: any,
     searchKeyword: any
@@ -22,6 +23,8 @@ export default function TechnologiesList(props: ListProp) {
     console.log(props)
 
     return (
+        <>
+        <Searchbar type="text" placeholder="Tech Name" className="prompt" />
         <ContainerGrid>
             { Data.map(technology => {
                 return (
@@ -40,5 +43,6 @@ export default function TechnologiesList(props: ListProp) {
                     </CardTechnology>
                 )}) }
         </ContainerGrid>
+        </>
     )
 }

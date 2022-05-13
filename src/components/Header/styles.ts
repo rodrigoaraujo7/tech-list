@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 export const Container = styled(motion.div)`
     color: ${props => props.theme.colors.text};
-    height: 5rem;
+    height: 1.45rem;
 `
 
 export const Searchbar = styled(motion.input)`
