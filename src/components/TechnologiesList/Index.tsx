@@ -16,18 +16,16 @@ const cardVariants = {
   };
   
 interface ListProp {
-    term: any,
+    term: string,
     searchKeyword: any,
-    value: string
+    data: any
 }
 
 export default function TechnologiesList(props: ListProp) {
-    console.log(props)
-
     const inputEl = useRef('')
         
     const getSearchTerm = () => {
-        console.log(inputEl.current.value)
+        props.searchKeyword(inputEl.current.value)
     }
 
     return (
