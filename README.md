@@ -30,7 +30,7 @@ Layout on Figma <a href="https://www.figma.com/file/7fXu7TGOp8EvKs67RKPGJu/Untit
 
 ## Participants
 
-| [<img src="https://avatars.githubusercontent.com/rodrigoaraujo7" width="75px;"/>](https://github.com/guilhermerodz) |
+| [<img src="https://avatars.githubusercontent.com/rodrigoaraujo7" width="75px;"/>](https://github.com/rodrigoaraujo7) |
 | :------------------------------------------------------------------------------------------------------------------------: |
 
 
